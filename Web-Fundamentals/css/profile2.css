@@ -1,0 +1,45 @@
+#page {
+    background-image: linear-gradient(to bottom, grey, rgba(36, 85, 7, 0.952))
+}
+
+.ptitle {
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    font-size: 115px; color: rgba(48, 19, 2, 0.788);
+}
+
+.multi-bg-example {
+  width: 100%;
+  height: 400px;
+  background-image: image (images/pine_forest_best.png),
+      url(https://mdn.mozillademos.org/files/11307/bubbles.png),
+      linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat: no-repeat,
+      no-repeat,
+      no-repeat;
+  background-position: bottom right,
+      left,
+      right;
+}
+
+ /* The navbar container */
+ .topnav {
+    overflow: hidden;
+    background-color: rgba(26, 15, 1, 0.89);
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } 
